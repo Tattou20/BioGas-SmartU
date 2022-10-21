@@ -1,0 +1,71 @@
+.inscription .div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inscription label {
+    font-size: 2em;
+}
+
+.inscription div form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inscription h2 {
+    font-size: 3em;
+}
+
+.inscription div form div {
+    padding: 10px;
+}
+
+.inscription button {
+    padding: 15px 35px;
+    border: 1px solid #2DAAE4;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg,
+            #0FC9FF,
+            #557695);
+    color: #ffffff;
+    transition: 0.5s;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.inscription button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.inscription input {
+    width: 500px;
+    height: 20px;
+    padding: 20px;
+    transition: 0.5s;
+    border: 1px solid #2DAAE4;
+    outline: none;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.inscription input:hover {
+    box-shadow: 2px 2px 6px #2daae4dc;
+}
+
+.inscription {
+    padding-top: 50px;
+}
+
+@media (max-width:950px) {
+    .inscription>div {
+        width: 100%;
+        padding: 10px 40px;
+    }
+}

@@ -1,0 +1,203 @@
+.bio section {
+    border: 20px;
+}
+
+
+.bio div {
+    border: 20px;
+}
+
+.bio .container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+    margin-bottom: 40px;
+}
+
+.bio .row {
+    display: flex;
+    flex-direction: inline;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 0px;
+    border: 20px;
+}
+
+.bio .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    margin: 0px;
+    transition: 0.75s;
+    box-shadow: 10px 10px 25px #3f3f40a8;
+}
+
+.bio .col:hover {
+    transform: translateY(-5px);
+    top: -950px;
+    box-shadow: 10px 10px 50px #FA942A;
+    opacity: 0.8;
+}
+
+.bio .img {
+    width: 700px;
+    height: 500px;
+}
+
+.bio a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio #col1 {
+    background-color: black;
+    color: white;
+}
+
+.bio #col1 a {
+    color: white;
+}
+
+.bio h1 {
+    text-align: center;
+    padding: 5px;
+    font-size: 2em;
+}
+
+.bio h5 {
+    text-align: left;
+    font-weight: lighter;
+    padding: 25px;
+    font-size: 1.6em;
+    text-align: center;
+
+}
+
+
+#page2a {
+    background-color: white;
+    color: white;
+}
+
+
+.bioa section {
+    border: 20px;
+}
+
+
+.bioa div {
+    border: 20px;
+
+}
+
+.bioa .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.bioa .row {
+    display: flex;
+    flex-direction: inline;
+    margin: 10px;
+    padding: 0px;
+    border: 20px;
+    flex-wrap: wrap;
+}
+
+.bioa .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 525px;
+    height: 425px;
+    margin: 5px;
+    transition: 0.75s;
+    box-shadow: 10px 10px 25px #3f3f40a8;
+    padding: 0px;
+    background-color: #006e93;
+    opacity: 0.7;
+
+}
+
+.bioa .col:hover {
+    transform: translateY(-5px);
+    top: -950px;
+    box-shadow: 5px 5px 30px #fa952a3e;
+    width: 530px;
+    height: 430px;
+    opacity: 1;
+}
+
+.bioa .img {
+    width: 525px;
+    height: 425px;
+    transition: 0.5s;
+}
+
+.bioa .img:hover {
+    width: 530px;
+    height: 430px;
+    transition: 0.5s;
+}
+
+.bioa #col1 {
+    background-color: black;
+    color: white;
+}
+
+
+.bioa #col2 {
+    background-color: #FA942A;
+    color: white;
+}
+
+.bioa #col3 {
+    background-color: #0FC9FF;
+    color: white;
+}
+
+.bioa #col4 {
+    background-color: #b6b6b6;
+    color: white;
+}
+
+
+
+.bioa h1 {
+    text-align: center;
+    padding: 5px;
+    font-size: 2em;
+}
+
+.bioa h5 {
+    text-align: left;
+    font-weight: lighter;
+    padding: 25px;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+
+video {
+    width: 700px;
+    height: 700px;
+}
+
+@media screen and (max-width: 650px) {}
+
+@media screen and (max-width: 500px) {}
